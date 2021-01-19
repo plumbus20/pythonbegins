@@ -5,7 +5,6 @@
 name = input('What is your name:')
 age = int(input('How old are you:'))
 year = str((100 - age) + 2021)
-year2 = str((2021 - age) + 100)
 
 print ("Hello " + name + ", you will turn 100 in the year " + year)
 
