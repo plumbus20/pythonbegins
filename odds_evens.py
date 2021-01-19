@@ -15,7 +15,6 @@ elif (number % 2) == 0:
 else:
     print (str(number) + ' is an odd number')
 
-
 #If check divides evenly into num, tell that to the user.
 #If not, print a different appropriate message.
 
@@ -23,4 +22,4 @@ if number % check == 0:
     print (str(number) + ' divides evenly by ' + str(check))
 
 else:
-    print (str(number) + ' does not divides evenly by ' + str(check))
+    print (str(number) + ' does not divide evenly by ' + str(check))
